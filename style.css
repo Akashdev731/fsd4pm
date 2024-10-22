@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+}
+
+.slider {
+    overflow: hidden;
+  }
+  .slider .slide {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+.slider .slide:nth-child(1){
+    background-image: url(./assest/3.jpg);
+    animation-delay: -0;
+    opacity: 90%;
+    border-radius: 50px;
+    
+}
+.slider .slide button{
+
+    width: 170px;
+    height: 70px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    border-radius: 10px;
+}
+.sec2{
+    background-color: antiquewhite;
+   
+} 
+@media screen and (max-width: 570px){
+       .sec2 {
+            background-color: antiquewhite;
+       }
+}
+.img1{
+    width: 10%; 
+    height: 100%; 
+    border-radius: 50%; 
+    
+}
+
+@media screen and ( max-width:570px) {
+    .img1{
+        width: 30%; 
+        height: auto; 
+        border-radius: 50%; 
+        
+    } 
+}
+
+.sec5{
+    width: 100%;
+    height: 90vh;
+}
+@media screen and (max-width:1200px) {
+    .sec5{
+        width: 100%;
+        height: auto;
+    }
+}
+/*  */
+
+
+@media screen and (max-width: 570px){
+    .sec6 {
+         background-color: antiquewhite;
+         
+    }
+    .sec6 img{
+     width: 100%;
+     height: 200vh;
+    }
+}
+.sec7{
+    width: 100%;
+    height: 60vh;
+}
+@media  screen and (max-width:1200px){
+    .sec7{
+        height: auto;
+    }
+    .sec7 .img2{
+         width: 25px;
+         height:25px;
+        
+    }
+}
+.sec8{
+    background-color: rgba(0, 0, 0, 0.908);
+    border-radius: 20px;
+}
